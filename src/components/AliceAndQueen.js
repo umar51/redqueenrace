@@ -6,7 +6,7 @@ import './Alice.css';
 function AliceAndQueen() {
 
     
-         const { ref, playState, getAnimation} = useWebAnimations({
+         const { ref} = useWebAnimations({
         keyframes : [
             { transform: 'translateY(100%)' },
             { transform: 'translateY(-100%)' }   
